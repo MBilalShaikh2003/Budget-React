@@ -1,0 +1,197 @@
+
+body {
+    background-image: url('https://www.moneycrashers.com/wp-content/uploads/2019/01/personal-budgeting-tips.jpg'); 
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0; 
+    font-family: 'Poppins', sans-serif; 
+    color: #1f2937; /* Neutral dark color for text */
+    padding: 20px;
+}
+
+/* Header Styling */
+h2, h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+h2:hover, h3:hover {
+    color: #f59e0b; /* Amber on hover */
+}
+
+/* Budget Container Styling */
+.budget-container {
+    background: linear-gradient(135deg, #38bdf8, #22c55e);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 350px;
+    margin: 20px auto;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.budget-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.budget-container p {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.budget-container span {
+    color: #facc15;
+}
+
+/* Remaining Container Styling */
+.remaining-container {
+    background-color: #ffffff;
+    color: #1f2937;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 350px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.remaining-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.remaining-container.over-budget {
+    background-color: #f87171; /* Red for over budget */
+    color: white;
+}
+
+.remaining-container.under-budget {
+    background-color: #4ade80; /* Green for under budget */
+    color: white;
+}
+
+/* Spent Container Styling */
+.spent-container {
+    background-color: #fbbf24;
+    color: #1f2937;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 350px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.spent-container:hover {
+    transform: translateY(-10px);
+    background-color: #f59e0b;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Form Styling */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease;
+}
+
+form:hover {
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4ade80;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #3b82f6;
+    transform: translateY(-5px);
+}
+
+/* List Items Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+li:hover {
+    background-color: #f3f4f6;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+li span {
+    font-size: 16px;
+    font-weight: bold;
+    color: #10b981;
+}
+
+.TiDelete {
+    font-size: 24px;
+    color: #ef4444;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.TiDelete:hover {
+    color: #dc2626;
+    transform: scale(1.1);
+}
